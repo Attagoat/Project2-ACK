@@ -1,0 +1,10 @@
+# name,priority,length with no spaces in between
+# name will be one character (guaranteed)
+# valid priority will be between -19 (highest) and 20 (lowest)
+# valid length will be a positive integer
+A,-19,4 #this has the highest priority
+B,-5,6
+C,X,Y # this should be ignored, since X and Y are not valid integers
+C,-25,5 # this should be ignored since -25 is not a valid priority
+C,13,5 # this has the lowest priority
+# this line, like all with hashes, should be ignored
