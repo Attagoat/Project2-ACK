@@ -62,5 +62,5 @@ public interface PriorityQueue<K,V> {
    * Removes and returns an entry with minimal key.
    * @return the removed entry (or null if empty)
    */
-  Entry<K,V> removeMin();
+  Entry<K,V> removeMin(); 
 }
